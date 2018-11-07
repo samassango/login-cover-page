@@ -6,7 +6,12 @@ import reducer from './reducers';
 
 const loggerMiddleware = createLogger();
 
-export const store = createStore(reducer,
-  applyMiddleware(thunkMiddleware,
-    loggerMiddleware)
-);
+const configureStore = () => {
+  const store = createStore(reducer,
+    applyMiddleware(thunkMiddleware,
+      loggerMiddleware)
+  );
+  return store;
+}
+
+export default configureStore;

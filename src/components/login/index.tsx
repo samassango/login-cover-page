@@ -110,7 +110,7 @@ class Login extends React.Component<ILoginProps> {
             <div className="login-form">
               <div className="main-div">
                 <div className="panel">
-                  <h2> Admin Login</h2>
+                  <h2> Cyber Tech</h2>
                   <p>Please enter your email and password</p>
                 </div>
 

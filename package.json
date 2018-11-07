@@ -12,6 +12,7 @@
     "cross-fetch": "^2.2.3",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
+    "jest-config": "^23.6.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
